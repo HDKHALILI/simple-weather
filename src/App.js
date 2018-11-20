@@ -42,13 +42,11 @@ class App extends Component {
   handleGetWeather = (event) => {
     event.preventDefault();
     const location = event.target.elements.location.value.trim();
-    console.log(location);
 
     if (location) {
       getWeather(location)
         .then((data) => {
           this.setState(() => {
-            console.log(data)
             return {
               singleCity: {
                 temperature: data.main.temp,
