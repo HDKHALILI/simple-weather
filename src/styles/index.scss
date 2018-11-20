@@ -1,2 +1,9 @@
 @import '../icons/css/weather-icons.min.css';
-@import './base/base.scss';
+@import './base/setting';
+@import './base/base';
+
+@import './components/app';
+@import './components/form';
+@import './components/weather';
+@import './components/result';
+@import './components/sun-details';

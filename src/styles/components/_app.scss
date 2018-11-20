@@ -1,0 +1,47 @@
+.default-cities {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-medium {
+  font-size: 4rem;
+  padding-right: 2rem;
+  margin-bottom: 1rem;
+}
+
+.details-medium {
+  font-size: 2rem;
+  font-weight: 600;
+  > p {
+    margin: 0;
+  }
+}
+
+.medium-font {
+  color: $orange !important;
+  font-size: 3rem;
+}
+
+@media (max-width: 40rem) {
+
+  .medium-font {
+    font-size: 2rem;
+  }
+
+  .weather {
+    padding: 1rem !important;
+  }
+
+  .details-medium {
+    font-size: 1.5rem;
+  }
+}
+
+
+@media (max-width: 30rem) {
+  .default-cities {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: column;
+  }
+}

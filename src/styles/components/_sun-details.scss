@@ -1,0 +1,19 @@
+.sun-details {
+  color: #323232;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.sun-details i {
+  padding-right: 1rem;
+}
+
+@media (max-width: 30rem) {
+  .sun-details {
+    margin: 3rem 0;
+    font-size: 1.5rem;
+  }
+  p {
+    margin: 0.3rem;
+  }
+}
