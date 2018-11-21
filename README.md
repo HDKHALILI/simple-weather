@@ -1,5 +1,7 @@
 ## Simple Weather
-This is a simple weather app that shows temperature, condition, sunrise and sunset times.
+This app is built with React 16
+
+A simple weather app that shows temperature, condition, sunrise and sunset times.
 
 The app is deployed on firebase
 
